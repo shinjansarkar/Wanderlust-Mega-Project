@@ -5,6 +5,7 @@ import PostCard from '@/components/post-card';
 import Post from '@/types/post-type';
 import { PostCardSkeleton } from '@/components/skeletons/post-card-skeleton';
 import Header from '@/layouts/header-layout';
+
 function HomePage() {
   const [posts, setPosts] = useState<Post[]>([]);
 
@@ -40,3 +41,5 @@ function HomePage() {
 }
 
 export default HomePage;
+
+
