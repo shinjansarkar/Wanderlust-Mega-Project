@@ -28,6 +28,8 @@ services:
       - ./frontend/.env.docker
     ports:
       - "80:80"
+    depends_on:
+      - backend
 
 volumes:
   mongo_data:   # ✅ defined named volume
